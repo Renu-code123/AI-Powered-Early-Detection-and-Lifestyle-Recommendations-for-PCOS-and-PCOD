@@ -1,0 +1,324 @@
+/* Neon Theme for PCOS/PCOD App */
+
+:root {
+  /* Refined accessible neon palette */
+  --neon-purple: #9B5DE5;
+  --neon-pink: #F15BB5;
+  --neon-blue: #00BBF9;
+  --aqua-blue: #3CFBFF;
+  --soft-white: #E9EEF3;
+  --dark: #0A0E14;
+  --dark-purple: #3B0A57;
+  /* Divider line color for dark mode */
+  --divider: rgba(255, 255, 255, 0.12);
+}
+
+/* Global Styles */
+.bg-dark {
+  background-color: var(--dark);
+}
+
+.text-soft-white {
+  color: var(--soft-white);
+}
+
+.text-neon-purple {
+  color: var(--neon-purple);
+}
+
+.text-neon-pink {
+  color: var(--neon-pink);
+}
+
+.text-neon-blue {
+  color: var(--neon-blue);
+}
+
+.text-aqua-blue {
+  color: var(--aqua-blue);
+}
+
+.bg-neon-purple {
+  background-color: var(--neon-purple);
+}
+
+.bg-neon-pink {
+  background-color: var(--neon-pink);
+}
+
+.bg-neon-blue {
+  background-color: var(--neon-blue);
+}
+
+.bg-aqua-blue {
+  background-color: var(--aqua-blue);
+}
+
+/* Neon Effects */
+.neon-border {
+  border: 1px solid rgba(155, 93, 229, 0.6);
+  box-shadow: 0 0 8px rgba(155, 93, 229, 0.25);
+}
+
+.neon-border-pink {
+  border: 1px solid rgba(241, 91, 181, 0.6);
+  box-shadow: 0 0 8px rgba(241, 91, 181, 0.25);
+}
+
+.neon-border-blue {
+  border: 2px solid var(--neon-blue);
+  box-shadow: 0 0 8px rgba(0, 187, 249, 0.25);
+}
+
+.neon-text {
+  text-shadow: 0 0 4px rgba(155, 93, 229, 0.6), 0 0 10px rgba(155, 93, 229, 0.35);
+}
+
+.neon-text-pink {
+  text-shadow: 0 0 4px rgba(241, 91, 181, 0.6), 0 0 10px rgba(241, 91, 181, 0.35);
+}
+
+.neon-text-blue {
+  text-shadow: 0 0 4px rgba(0, 187, 249, 0.6), 0 0 10px rgba(0, 187, 249, 0.35);
+}
+
+/* Card Styles */
+.neon-card {
+  background-color: rgba(10, 14, 20, 0.75);
+  border-radius: 16px;
+  padding: 20px;
+  margin: 15px 0;
+  border: 1px solid rgba(155, 93, 229, 0.5);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35), 0 0 10px rgba(155, 93, 229, 0.25);
+  transition: all 0.3s ease;
+}
+
+.neon-card:hover {
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.4), 0 0 12px rgba(155, 93, 229, 0.3);
+  transform: translateY(-2px);
+}
+
+/* Button Styles */
+.neon-button {
+  background-color: transparent;
+  color: var(--neon-purple);
+  border: 2px solid var(--neon-purple);
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: saturate(120%) blur(6px);
+}
+
+.neon-button:hover {
+  background-color: rgba(155, 93, 229, 0.9);
+  color: var(--soft-white);
+  box-shadow: 0 6px 18px rgba(155, 93, 229, 0.5);
+}
+
+.neon-button-pink {
+  color: var(--neon-pink);
+  border-color: var(--neon-pink);
+}
+
+.neon-button-pink:hover {
+  background-color: rgba(241, 91, 181, 0.9);
+  box-shadow: 0 6px 18px rgba(241, 91, 181, 0.5);
+}
+
+.neon-button-blue {
+  color: var(--neon-blue);
+  border-color: var(--neon-blue);
+}
+
+.neon-button-blue:hover {
+  background-color: rgba(0, 187, 249, 0.9);
+  box-shadow: 0 6px 18px rgba(0, 187, 249, 0.5);
+}
+
+/* Input Styles */
+.neon-input {
+  background-color: rgba(10, 14, 20, 0.6);
+  border: 1px solid var(--neon-purple);
+  border-radius: 8px;
+  color: var(--soft-white);
+  padding: 12px 15px;
+  transition: all 0.3s ease;
+}
+
+.neon-input:focus {
+  outline: none;
+  border-color: var(--neon-purple);
+  box-shadow: 0 0 10px rgba(155, 93, 229, 0.35);
+}
+
+/* Dashboard Layout */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Soft background accents for hero and sections */
+.bg-soft-gradient {
+  background:
+    radial-gradient(circle at 12% 8%, rgba(155, 93, 229, 0.12), transparent 52%),
+    radial-gradient(circle at 88% 18%, rgba(0, 187, 249, 0.10), transparent 48%),
+    radial-gradient(circle at 22% 86%, rgba(241, 91, 181, 0.10), transparent 45%);
+}
+
+/* Animation for loading */
+@keyframes neon-pulse {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+.neon-pulse {
+  animation: neon-pulse 2s infinite;
+}
+
+/* Typography */
+body {
+  font-family: 'Poppins', 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+/* Branding utilities */
+.brand-gradient-text {
+  background-image: linear-gradient(92deg, var(--neon-blue), var(--neon-pink) 55%, var(--neon-purple));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.brand-chip {
+  background-image: linear-gradient(135deg, rgba(0, 187, 249, 0.18), rgba(241, 91, 181, 0.18));
+  border: 1px solid rgba(124, 58, 237, 0.25);
+  box-shadow: 0 4px 14px rgba(124, 58, 237, 0.18);
+}
+
+.hero-accent {
+  position: relative;
+  overflow: hidden;
+}
+.hero-accent::before {
+  content: '';
+  position: absolute;
+  inset: -25% -20% auto auto;
+  width: 60%;
+  height: 60%;
+  background: radial-gradient(closest-side, rgba(124, 58, 237, 0.15), transparent 70%);
+  filter: blur(22px);
+}
+.hero-accent::after {
+  content: '';
+  position: absolute;
+  inset: auto auto -25% -20%;
+  width: 60%;
+  height: 60%;
+  background: radial-gradient(closest-side, rgba(37, 99, 235, 0.15), transparent 70%);
+  filter: blur(22px);
+}
+
+/* Header divider utility to keep line visible across themes */
+.header-divider {
+  border-bottom-color: var(--divider) !important;
+}
+
+/* Light Theme Overrides */
+.theme-light {
+  /* Swap CSS variables for a lighter palette */
+  --dark: #F7FAFC; /* page/background surfaces */
+  --soft-white: #1F2937; /* text color in light mode */
+  --neon-purple: #7C3AED;
+  --neon-pink: #DB2777;
+  --neon-blue: #2563EB;
+  --aqua-blue: #0EA5E9;
+  /* Divider line color for light mode */
+  --divider: rgba(0, 0, 0, 0.12);
+}
+
+.theme-light .bg-dark {
+  background-color: var(--dark);
+}
+
+.theme-light .text-soft-white {
+  color: var(--soft-white);
+}
+
+.theme-light .neon-card {
+  background-color: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+}
+
+.theme-light .neon-button {
+  color: #111827;
+  border-color: rgba(0, 0, 0, 0.14);
+}
+.theme-light .neon-button:hover {
+  background-color: rgba(124, 58, 237, 0.08);
+  color: #111827;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+.theme-light .neon-button-blue {
+  color: #1e3a8a;
+  border-color: var(--neon-blue);
+}
+.theme-light .neon-button-blue:hover {
+  background-color: rgba(37, 99, 235, 0.12);
+  box-shadow: 0 6px 12px rgba(37, 99, 235, 0.18);
+}
+.theme-light .neon-button-pink {
+  color: #9d174d;
+  border-color: var(--neon-pink);
+}
+.theme-light .neon-button-pink:hover {
+  background-color: rgba(219, 39, 119, 0.12);
+  box-shadow: 0 6px 12px rgba(219, 39, 119, 0.18);
+}
+
+.theme-light .neon-input {
+  background-color: rgba(255, 255, 255, 0.96);
+  border-color: rgba(0, 0, 0, 0.12);
+  color: #111827;
+}
+.theme-light .neon-input:focus {
+  box-shadow: 0 0 8px rgba(37, 99, 235, 0.25);
+  border-color: var(--neon-blue);
+}
+
+.theme-light .bg-soft-gradient {
+  background:
+    radial-gradient(circle at 12% 8%, rgba(124, 58, 237, 0.10), transparent 52%),
+    radial-gradient(circle at 88% 18%, rgba(37, 99, 235, 0.10), transparent 48%),
+    radial-gradient(circle at 22% 86%, rgba(14, 165, 233, 0.10), transparent 45%);
+}

@@ -1,10 +1,11 @@
 import React from 'react';
 import PCOSGuardian from './components/main/PcosGuardian';
 import './index.css'; // Tailwind styles
+import './App.css'; // Custom styles for neon theme
 
 const App = () => {
   return (
-    <div className="min-h-screen bg-gray-100 text-gray-800">
+    <div className="min-h-screen bg-dark text-soft-white">
       <PCOSGuardian />
     </div>
   );
