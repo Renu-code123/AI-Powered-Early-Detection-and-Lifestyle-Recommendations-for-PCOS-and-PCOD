@@ -1,6 +1,7 @@
 # AI-Powered-Early-Detection-and-Lifestyle-Recommendations-for-PCOS-and-PCOD
 # 🌸 AI-Powered Early Detection and Lifestyle Recommendation System for PCOS and PCOD
 
+
 > Developed under **Open Innovation Track** at **HackAura 2025**  
 > by **Team Auracoder** 💜  
 > _Empowering Women's Health with AI & Data-Driven Insights_
@@ -68,19 +69,6 @@ The system acts as a **digital health companion**, empowering women with awarene
   - Doctor appointments
   - Period tracking
   - Daily self-care activities
-
----
-
-## 🖥️ User Interface Preview
-
-| Feature | Screenshot |
-|----------|-------------|
-| Homepage | ![Homepage](assets/homepage.png) |
-| Dashboard | ![Dashboard](assets/dashboard.png) |
-| Risk Assessment | ![Assessment](assets/assessment.png) |
-| Lifestyle Recommendations | ![Recommendations](assets/recommendations.png) |
-
-_(Add screenshots in `/assets` folder to make your README visually appealing.)_
 
 ---
 
