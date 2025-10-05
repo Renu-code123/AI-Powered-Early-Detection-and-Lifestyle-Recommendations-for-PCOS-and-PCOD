@@ -1,4 +1,3 @@
-# AI-Powered-Early-Detection-and-Lifestyle-Recommendations-for-PCOS-and-PCOD
 # 🌸 AI-Powered Early Detection and Lifestyle Recommendation System for PCOS and PCOD
 
 ## 🎥 Project Demo [[Watch the demo]](https://youtu.be/qDjl8UE7Upo?si=LY__ghPlRhFxNEsO)
@@ -156,8 +155,9 @@ User Input → Data Preprocessing → AI/ML Model → Risk Analysis → Personal
 
 Our vision is to revolutionize women’s health management using AI and data analytics, bridging the gap between awareness and medical consultation.
 
----
 ## 📂 Folder Structure
+```bash
+
 AI-Powered-Early-Detection-and-Lifestyle-Recommendations-for-PCOS-and-PCOD/
 │
 ├── frontend/ # React.js or Angular frontend code
@@ -168,9 +168,7 @@ AI-Powered-Early-Detection-and-Lifestyle-Recommendations-for-PCOS-and-PCOD/
 ├── docs/ # Project documentation
 ├── README.md # This file
 └── requirements.txt # Dependencies/
-
-
----
+```
 
 ## 🧪 Installation & Setup
 
@@ -191,9 +189,8 @@ npm start  # or python app.py
 # Run frontend
 cd frontend
 npm run dev
-<br>
 
-AI/ML Model Overview<br>
+AI/ML Model Overview
 
 Input: Cycle history, BMI, lifestyle habits, symptoms<br>
 Algorithm Used: Logistic Regression, Random Forest, and ANN<br>
