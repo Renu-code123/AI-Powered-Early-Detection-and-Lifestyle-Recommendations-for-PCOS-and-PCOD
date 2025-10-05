@@ -86,12 +86,12 @@ User Input → Data Preprocessing → AI/ML Model → Risk Analysis → Personal
 
 | **Layer** | **Technology** |
 |:----------:|:--------------:|
-| **Frontend** | HTML, CSS, JavaScript (React.js) |
-| **Backend** | Node.js, Python (Flask / Django) |
-| **Database** | MongoDB / PostgreSQL |
-| **AI/ML Frameworks** | TensorFlow, PyTorch, Scikit-learn |
-| **API & Tools** | Google Maps API, RESTful APIs |
-| **Authentication** | JWT Tokens, Password Hashing |
+| **Frontend** | HTML, CSS, JavaScript (React.js) |<br>
+| **Backend** | Node.js, Python (Flask / Django) |<br>
+| **Database** | MongoDB / PostgreSQL |<br>
+| **AI/ML Frameworks** | TensorFlow, PyTorch, Scikit-learn |<br>
+| **API & Tools** | Google Maps API, RESTful APIs |<br>
+| **Authentication** | JWT Tokens, Password Hashing |<br>
 | **Hosting** | Vercel / Render / AWS |
 
 ---
