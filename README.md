@@ -85,8 +85,8 @@ User Input → Data Preprocessing → AI/ML Model → Risk Analysis → Personal
 ## 🛠️ Tech Stack
 
 | Layer | Technology |
-|-------|-------------|
-| **Frontend** | HTML, CSS, JavaScript (React.js / Angular) |
+|-------|-------------|<br>
+| **Frontend** | HTML, CSS, JavaScript (React.js / Angular) |<br>
 | **Backend** | Node.js, Python (Flask / Django) |
 | **Database** | MongoDB / PostgreSQL |
 | **AI/ML Frameworks** | TensorFlow, PyTorch, Scikit-learn |
