@@ -12,7 +12,7 @@ import os
 # %%
 # --- Configuration ---
 # Primary dataset path
-DATASET_PATH = 'PCOS_data_without_infertility.xlsx - Full_new.csv'
+DATASET_PATH = 'PCOS_data_without_infertility.xlsx'
 # Secondary dataset path (for reference, not used in this primary pipeline)
 DATASET_INFERTILITY_PATH = 'PCOS_infertility.csv' 
 
