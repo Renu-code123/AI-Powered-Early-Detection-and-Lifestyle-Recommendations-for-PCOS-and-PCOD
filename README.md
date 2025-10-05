@@ -1,6 +1,7 @@
 # AI-Powered-Early-Detection-and-Lifestyle-Recommendations-for-PCOS-and-PCOD
 # 🌸 AI-Powered Early Detection and Lifestyle Recommendation System for PCOS and PCOD
 
+## 🎥 Project Demo [[Watch the demo]](https://youtu.be/qDjl8UE7Upo?si=LY__ghPlRhFxNEsO)
 
 > Developed under **Open Innovation Track** at **HackAura 2025**  
 > by **Team Auracoder** 💜  
@@ -84,9 +85,9 @@ User Input → Data Preprocessing → AI/ML Model → Risk Analysis → Personal
 
 ## 🛠️ Tech Stack
 
-| Layer | Technology |
-|-------|-------------|<br>
-| **Frontend** | HTML, CSS, JavaScript (React.js / Angular) |<br>
+| **Layer** | **Technology** |
+|:----------:|:--------------:|
+| **Frontend** | HTML, CSS, JavaScript (React.js) |
 | **Backend** | Node.js, Python (Flask / Django) |
 | **Database** | MongoDB / PostgreSQL |
 | **AI/ML Frameworks** | TensorFlow, PyTorch, Scikit-learn |
